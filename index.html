@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Restaurant Survey form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<main>
+  <h1 id="title">Restaurant Survey Form</h1>
+  <p id="description">This survey well help us to improve our restaurant</p>
+
+  <form id="survey-form">
+  <div>
+  <label id="name-label" for="name-label">Name</label>
+   </div>
+  <div>
+  <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    </div>
+  <div>
+  <label id="email-label" for="email">Email</label>
+    </div>
+  <div>
+  <input type="text" id="email" name="email" placeholder="Enter your email" required>
+</div>
+<div>
+  <label id="number-label" for="number">Age</label>
+  </div>
+  <div>
+  <input type="number" id="number" name="Age" placeholder="Age" min="15" max="99" required>
+  </div>
+  <div>
+    
+    
+  <label id="dropdown">How often do you come here?</label>
+    </div>
+  <div>
+  <select id="list" required>
+    <option value="select">Select</option>
+    <option value="regularly">Regularly</option>
+    <option value="ocassionally">Ocassionally</option>
+    <option value="rarely">Rarely</option>
+  </select>
+  </div>
+  <p id="recommend">Would you recommend the restaurant to others?</p>
+  <div>
+  <label name="recommend" ><input type="radio" name="recommend" value="definitely" checked>Definitely</label>
+    </div>
+  <div>
+  <label name="recommend" ><input name="recommend" type="radio" value="maybe">Maybe</label>
+    </div>
+  <div>
+  <label name="recommend"><input name="recommend" type="radio" value="unlikely">Unlikely</label>
+    </div>
+  <label name="recommend"><input name="recommend" type="radio" value="Never">Never</label>
+  
+  <p>What would you like to see improved?</p>
+  <div>
+  <label><input name="improve" value="food" type="checkbox">Food</label>
+    </div>
+  <div>
+  <label><input name="improve" value="drinks" type="checkbox">Drinks</label>
+    </div>
+  <div>
+  <label><input name="improve" value="Atmosphere" type="checkbox">Atmosphere</label>
+    </div>
+  <div>
+   <label><input name="improve" value="Customer-service" type="checkbox">Customer service</label>
+  </div>
+  <div>
+   <label><input name="improve" value="delivery" type="checkbox">Home delivery</label>
+    </div>
+  <div>
+   <label><input name="improve" value="website" type="checkbox">Website</label>
+  </div>
+  <div>
+   <label><input name="improve" value="online-app" type="checkbox">Online app</label>
+    </div>
+   <label><input name="improve" value="add-to-menu" type="checkbox">Menu</label>
+  
+  <p>Additional comments</p>
+  <textarea id="comments" name="comments" rows="4" cols="50" placeholder="enter comments here"></textarea>
+  
+  <button id="submit" type="submit">Submit</button>
+  
+  </form>
+  </main>
+<!-- partial -->
+  
+</body>
+</html>

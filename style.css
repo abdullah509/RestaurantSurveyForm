@@ -1,0 +1,106 @@
+#title{
+  text-align: center;
+  line-height: 1;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+#description{
+  text-align: center;
+  line-height: 0.5;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+p{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#survey-form{
+  border: 1px #F0FFFF;
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+  background-color: #F0FFFF;
+  font-size: 20px;
+}
+
+body{
+  text-align: center;
+  background-color: #F0FFFF;
+  
+}
+label{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  display: flex;
+  
+}
+
+#name-label{
+  display: flex;
+  text-align: center;
+  line-height: 2;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+#name{
+  display: block;
+  width: 95%;
+  height: 2.375rem;
+  margin: 0 auto 2px auto;
+  border: 2px solid #ced4da;
+}
+#email-label{
+  text-align: center;
+  line-height: 2;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+#email{
+  display: block;
+  width: 95%;
+  height: 2.375rem;
+  margin: 0 auto 2px auto;
+  border: 2px solid #ced4da;
+}
+#number-label{
+  text-align: center;
+  line-height: 2;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+#number{
+  display: block;
+  width: 95%;
+  height: 2.375rem;
+  margin: 0 auto 2px auto;
+  border: 2px solid #ced4da;
+}
+#dropdown{
+  text-align: left;
+  line-height: 2;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+#list{
+  display: block;
+  width: 95%;
+  height: 2.375rem;
+  
+  margin: 0 auto 2px auto;
+  border: 2px solid #ced4da;
+}
+#recommend{
+  text-align: left;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+#comments{
+  width: 95.5%;
+  display: block;
+  margin: 0 auto 2px auto;
+  border: 2px solid #ced4da;
+}
+
+#submit{
+  text-align: center;
+  background-color: #7FFFD4;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  display: block;
+  width: 97%;
+  height: 2.375rem;
+  margin: 0 auto 2px auto;
+  border: 2px solid #ced4da;
+}
